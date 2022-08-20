@@ -1,0 +1,62 @@
+body{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-behavior: smooth;
+}
+
+#container{
+    background: white;
+
+    font-size: 1.1rem;
+    width: 40%;
+    
+}
+#container img{
+    width: 30px;
+}
+#container img:hover{
+    cursor: pointer;
+}
+.content{
+    margin: 20px;
+    border: 2px solid rgba(128, 128, 128, 0.418);
+    padding: 10px;
+    background: rgb(237, 237, 237);
+    box-shadow: 0px 15px 25px -14px rgba(0,0,0,0.57);
+    -webkit-box-shadow: 0px 15px 25px -14px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 15px 25px -14px rgba(0,0,0,0.57);
+}
+.main{
+    padding: 2rem;
+    background: url('https://picsum.photos/1000/300');
+}
+
+.emoji:hover{
+cursor: pointer;
+}
+
+
+@media  only screen and (max-width:1200px){
+    #container{
+        
+        width: 60%;
+        
+    }
+}
+
+
+@media  only screen and (max-width:900px){
+#container{
+    font-size: 1rem;
+}
+.content{
+    margin: 12px;
+    padding: 5px;
+}
+.main{
+    padding: 0.5rem;
+}
+
+}
